@@ -1,0 +1,40 @@
+.imgHeader {
+
+    height: 7vh;
+
+}
+
+.logoStyle {
+
+    font-weight: bold !important;
+    color: white !important;
+
+}
+
+.navStyle {
+
+    background-color: black !important;
+
+}
+
+.linkStyle {
+
+    color: white !important;
+    transition: 1s !important;
+
+}
+
+.linkStyle:hover,.linkStyle:active,.linkStyle:focus {
+
+    color: rgb(192, 7, 7) !important;
+    text-decoration: underline;
+    
+
+}
+
+.listPositioning {
+
+    display: flex;
+    justify-content: end;
+
+}
