@@ -38,3 +38,19 @@
     justify-content: end;
 
 }
+
+.togglerStyle {
+
+    
+    background-color: white !important;
+    border-radius: 20px !important;
+
+}
+
+.togglerStyle:focus {
+
+    
+    border:2px solid red !important;
+    
+
+}
