@@ -2,14 +2,14 @@ html,body,div,section {
 
     
     height: 100%;
-    
+    display: block;
 
 }
 
 main {
     position: relative;
-    
-    
+    height: auto;
+    display: block;
    
 } 
 
@@ -17,7 +17,8 @@ footer {
 
     position:absolute;
     display: block;
-        margin-top: auto;
+    top: 74.3%;
+ 
 left:0;
 bottom:0;
 right:0;

@@ -4,7 +4,7 @@ export default function About() {
 
     return(
 
-        <>
+        
         <section className={`${styles.containerAbout}`}>
         
         
@@ -17,14 +17,14 @@ export default function About() {
             <section className={`${styles.textAbout}`}>
         <h1 className={`${styles.titleAbout}`}>Sobre o <span className={`${styles.spanAbout}`}>Projeto</span></h1>
 
-        <p className={`${styles.pAbout}`}>“All Pokemon And People Were Born Because They Have A Part In The World.”</p>
+        <p className={`${styles.pAbout}`}>“All Pokemon And People Were Born Because <br></br> They Have A Part In The World.”</p>
         </section>
         
         
         
         </section>
         
-        </>
+        
 
     )
 
