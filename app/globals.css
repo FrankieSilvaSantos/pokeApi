@@ -1,11 +1,25 @@
+html,body,div,section {
+
+    
+    height: 100%;
+    
+
+}
+
+main {
+    position: relative;
+    
+    
+   
+} 
+
 footer {
 
     position:absolute;
+    display: block;
+        margin-top: auto;
 left:0;
 bottom:0;
 right:0;
 }
 
-main {
-    position: relative;
-}

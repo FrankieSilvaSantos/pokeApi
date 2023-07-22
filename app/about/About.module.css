@@ -1,0 +1,60 @@
+.imgAbout {
+   position: relative;
+   top: 5%;
+    height: 60vh;
+    width: 120%;
+    border-radius: 20px;
+    border: 2px solid black;
+  
+}
+
+.containerAbout {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 40%;
+    margin-top: 3%;
+    justify-items: center;
+     margin-left: 13%; 
+    
+
+}
+
+.textAbout {
+
+    position: absolute;
+     top: 35%; 
+     left: 50%;
+    
+}
+
+.spanAbout {
+
+    color: rgb(228, 5, 5);
+
+}
+
+.pAbout {
+
+    width: 60%;
+}
+
+.titleAbout {
+
+    font-weight: 900;
+    color: black;
+    
+
+}
+
+.borderLeftAbout {
+    position: absolute;
+    border-left: 2px solid black;
+    height: 64vh;
+    left: 41%;
+    top: 2%;
+
+}
+
+  
+    

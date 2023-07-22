@@ -19,7 +19,7 @@ export default function Header() {
           <Link className={`nav-link  ${styles.linkStyle}`} aria-current="page" href="/">Home</Link>
         </li>
         <li className="nav-item">
-          <Link className={`nav-link  ${styles.linkStyle}`} href="#">About</Link>
+          <Link className={`nav-link  ${styles.linkStyle}`} href="/about">About</Link>
         </li>
       
       </ul>
