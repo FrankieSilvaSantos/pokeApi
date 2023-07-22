@@ -1,4 +1,4 @@
-import './globals.css'
+import styles from './globals.css'
 import { Inter } from 'next/font/google'
 import Header from './header/page'
 import Footer from './footer/page'
@@ -53,9 +53,9 @@ export default function RootLayout({ children }) {
       
       <header><Header></Header></header>
       
-      <main>{children}</main>
+      <main className={`${styles.mainStyle}`}>{children}</main>
       
-        <footer><Footer></Footer></footer>
+        <footer className={`${styles.footerStyle}`}><Footer></Footer></footer>
       
       </body>
     </html>

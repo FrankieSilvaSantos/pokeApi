@@ -1,0 +1,19 @@
+/* .footerStyle {
+
+    position:absolute;
+left:0;
+bottom:0;
+right:0;
+} */
+
+
+.spanFooter {
+    transition: 1s;
+    text-decoration: underline;
+
+}
+
+.spanFooter:hover {
+   color: rgb(228, 5, 5);
+
+}
