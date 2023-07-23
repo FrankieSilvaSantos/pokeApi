@@ -8,13 +8,17 @@
     margin-top: 1em;
     font-weight: 900;
     color: black;
-    
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    border: black 2px solid;
 }
 
 .spanHome {
 
-    color: rgb(228, 5, 5);
-   
+    color: red;
+  
+    font-weight: 5000;
 
 }
 
@@ -24,7 +28,7 @@
     width: 2%;
      position: absolute;
     left: 48%;
-    bottom: 10.5%; 
+    bottom: 20%; 
 
 }
 
@@ -35,11 +39,13 @@ justify-content: center;
     position: relative;
  
 
+
 }
 
 .containerHome1 {
 
-   
+  background-image: url('/img/body/wallpaper.jpg');
+    background-size: 100%;
 
 }
 

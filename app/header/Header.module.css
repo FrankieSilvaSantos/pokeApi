@@ -20,7 +20,7 @@
 .navStyle {
 
     background-color: black !important;
-
+    border-bottom: 3px solid white;
 }
 
 .linkStyle {

@@ -12,10 +12,18 @@ right:0;
 .spanFooter {
     transition: 1s;
     text-decoration: underline;
-
+    color: white;
 }
 
 .spanFooter:hover {
    color: rgb(228, 5, 5);
 
+}
+
+.footerStyle {
+
+    border-top: 2px solid white;
+    color: white !important;
+    font-weight: 900;
+    background-color: black !important;
 }

@@ -1,13 +1,16 @@
 import styles from './About.module.css'
 
+
 export default function About() {
+
+
 
     return(
 
         <section className={`${styles.container}`}>
         <section className={`${styles.containerAbout}`}>
         
-        
+
         <section>
         <img className={`${styles.imgAbout}`} src="/img/about/about.jpg"></img>
         </section>

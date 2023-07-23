@@ -17,7 +17,6 @@ footer {
     position:absolute;
     display: block;
    
-
 left:0;
 bottom:auto;
 right:0;
@@ -29,3 +28,6 @@ right:0;
 :root {
     --gradient: linear-gradient(to left top, #f17279 10% , #fc0a0a 90% ) !important;
   } 
+
+
+
