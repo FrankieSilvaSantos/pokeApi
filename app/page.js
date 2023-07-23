@@ -23,7 +23,7 @@ export default async function Home() {
   console.log(data)
 
   return (
-    <section>
+    <section className={`${styles.containerHome1}`}>
     <main className={`${styles.containerHome}`}>
       <section className={`${styles.containerTituloHome}`}>
         <h1 className={`${styles.titleHome}`}><span className={`${styles.spanHome}`}>Poke</span>Api <img className={`${styles.imgHome}`} src='/img/logo/pokeball.png'></img></h1>
@@ -63,7 +63,7 @@ export default async function Home() {
 
 </div> */}
 
-  <section>
+  {/* <section>
 
    
 
@@ -72,10 +72,12 @@ export default async function Home() {
         <div>
         <li>
 
-        {datos.results.map((nombre) => (
-
+        {datos.results.map((nombre,index) => (
+          <section>
           <h1>{nombre.name}</h1>
 
+          <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index + 1}.png`}></img>
+          </section>
         ))}
 
         </li>
@@ -84,8 +86,66 @@ export default async function Home() {
       </ul>
    
 
-  </section>
+  </section> */}
 
-    </section>
+
+  
+
+<div className={` ${styles.containerCard1}`}>
+{data.results.map((pokemon,index) => (
+<div className={`container mx-auto mt-4 `}>
+
+  <div className={` `}>
+
+   
+    <div className={``}>
+  
+
+  
+
+    
+        <div className={`card ${styles.card}`}>
+  <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index + 1}.png`} className={`card-img-top ${styles.imgCardHome}`} alt="..."/>
+
+  <div className={`card-body ${styles.cardBodyStyle}`}>
+   
+     
+<div>
+         
+<h5 className={`card-title ${styles.titleCardHome}`}>{index}</h5>
+<h6 className={`card-subtitle mb-2  ${styles.titleCardHome2}`}>{pokemon.name.toUpperCase()}</h6>
+<a href="#" className={`btn mr-2 ${styles.btn}`}>Details</a>
+</div>
+</div>
+
+
+
+</div>
+     
+  
+  
+ 
+ 
+    </div>  
+
+ 
+      
+      
+    
+  
+  
+     
+</div>
+
+</div>
+
+ ))}
+ </div>
+ 
+</section>
+
+
+  
+   
   )
 }

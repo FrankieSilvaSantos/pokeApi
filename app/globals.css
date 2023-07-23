@@ -23,3 +23,9 @@ bottom:auto;
 right:0;
 }
 
+
+/*  card styles */
+
+:root {
+    --gradient: linear-gradient(to left top, #f17279 , #fc0a0a ) !important;
+  } 
