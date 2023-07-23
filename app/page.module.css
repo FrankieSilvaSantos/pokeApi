@@ -21,20 +21,17 @@
 .borderHome {
 
     border-bottom:2px solid rgb(228, 5, 5) ;
-    width: 13%;
-     position: relative;
-    left: 38%;
-    bottom: 15%; 
+    width: 2%;
+     position: absolute;
+    left: 48%;
+    bottom: 10.5%; 
 
 }
 
-.containerTituloHome {
-    
-}
 
 .containerHome {
 display: flex;
 justify-content: center;
-    
+    position: relative;
 
 }
