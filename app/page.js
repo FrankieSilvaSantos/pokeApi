@@ -1,5 +1,7 @@
+
 import Image from 'next/image'
 import styles from './page.module.css'
+
 
 async function getData() {
   const res = await fetch('https://pokeapi.co/api/v2/pokemon/')
@@ -105,8 +107,9 @@ export default async function Home() {
 
     
         <div className={`card ${styles.card}`}>
-  <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index + 1}.png`} className={`card-img-top ${styles.imgCardHome}`} alt="..."/>
-
+       
+  <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index + 1}.png`} className={`card-img-top ${styles.imgCardHome}`}  alt="..."/>
+  
   <div className={`card-body ${styles.cardBodyStyle}`}>
    
      

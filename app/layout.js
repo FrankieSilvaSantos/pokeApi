@@ -15,6 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+      <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
       <link rel="icon" href="/img/logo/pokeApi.ico" sizes="any" />
 
       {/* BOOTSTRAP */}

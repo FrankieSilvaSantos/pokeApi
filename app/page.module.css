@@ -76,6 +76,8 @@ justify-content: center;
   }
   
   .btn {
+
+
        
         text-transform: unset !important;
     border: 2px solid gray !important;
@@ -96,9 +98,11 @@ justify-content: center;
     border-radius: 20px !important;
     padding: 9px 1px 9px 1px !important;
     margin: 10% 0 0 0 !important;
+   
+    
   }
   
-  .btn:hover, .btn:focus {
+  .btn:hover, .btn:focus  {
         background: var(--gradient) !important;
     -webkit-background-clip: none !important;
     -webkit-text-fill-color: #fff !important;
@@ -106,7 +110,16 @@ justify-content: center;
     box-shadow: #222 1px 0 10px !important;
     text-decoration: underline !important;
   
+   
   }
+
+
+
+ 
+
+
+
+ 
 
   /* mycode */
 
@@ -137,9 +150,10 @@ box-sizing: border-box;
   }
 
   .titleCardHome2 {
+    position: relative;
     color: white !important;
     font-weight: 900;
-    font-size: 66% !important;
+    font-size: 70% !important;
   }
 
   .cardBodyStyle {
@@ -153,4 +167,24 @@ box-sizing: border-box;
     text-align: center;
 
   }
+  .iconCardHome {
+    color: #e94040 ;
+    position: relative;
+    top: 2px;
+    left: 2%;
+    font-size: 100%;
+  }
+   .btn:hover .iconCardHome {
+    color: white ;
+   
+  } 
+
+
+
+  
+
+ 
+
+
+  
 
