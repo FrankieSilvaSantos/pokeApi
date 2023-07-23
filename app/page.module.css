@@ -167,17 +167,7 @@ box-sizing: border-box;
     text-align: center;
 
   }
-  .iconCardHome {
-    color: #e94040 ;
-    position: relative;
-    top: 2px;
-    left: 2%;
-    font-size: 100%;
-  }
-   .btn:hover .iconCardHome {
-    color: white ;
-   
-  } 
+
 
 
 
