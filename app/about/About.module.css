@@ -13,8 +13,8 @@
 
 .container {
 
-
-
+height: 79vh;
+overflow: hidden;
 }
 
 .containerAbout {
@@ -24,9 +24,9 @@
     grid-template-columns: 1fr 1fr;
     
    margin-top: 2.7em;
-   height: 73vh;
+
     
-   overflow: hidden; 
+ 
     /* margin-left: 1%; */
 
 /* overflow to hide scrollbar */

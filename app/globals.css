@@ -14,9 +14,10 @@ main {
 
 footer {
 
-    position:absolute;
+    position:relative;
     display: block;
-   
+    
+   top: auto;
 left:0;
 bottom:auto;
 right:0;
