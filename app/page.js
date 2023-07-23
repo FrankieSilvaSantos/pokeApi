@@ -112,7 +112,7 @@ export default async function Home() {
      
 <div>
          
-<h5 className={`card-title ${styles.titleCardHome}`}>{index}</h5>
+<h5 className={`card-title ${styles.titleCardHome}`}>{index + 1}</h5>
 <h6 className={`card-subtitle mb-2  ${styles.titleCardHome2}`}>{pokemon.name.toUpperCase()}</h6>
 <a href="#" className={`btn mr-2 ${styles.btn}`}>Details</a>
 </div>
