@@ -4,7 +4,7 @@ export default function About() {
 
     return(
 
-        
+        <section className={`${styles.container}`}>
         <section className={`${styles.containerAbout}`}>
         
         
@@ -24,7 +24,7 @@ export default function About() {
         
         </section>
         
-        
+        </section>
 
     )
 

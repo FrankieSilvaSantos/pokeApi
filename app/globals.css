@@ -2,13 +2,12 @@ html,body,div,section {
 
     
     height: 100%;
-    display: block;
+    display: block; 
 
 }
 
 main {
     position: relative;
-    height: auto;
     display: block;
    
 } 
@@ -17,10 +16,10 @@ footer {
 
     position:absolute;
     display: block;
-    top: 74.3%;
- 
+   
+
 left:0;
-bottom:0;
+bottom:auto;
 right:0;
 }
 
