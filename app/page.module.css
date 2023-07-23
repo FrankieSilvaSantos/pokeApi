@@ -69,8 +69,10 @@ justify-content: center;
   
   .btn {
     
-    
-    
+        text-transform: unset !important;
+    border: 2px solid gray !important;
+    font-weight: 900 !important;
+    border-image-slice: 1 !important;
     background: var(--gradient) !important;
     -webkit-background-clip: text !important;
     background-color: transparent !important;
@@ -80,9 +82,10 @@ justify-content: center;
     transition: all .4s ease !important;
     box-sizing: border-box !important;
     height: auto !important;
-    font-size: 70% !important;
+    font-size: 80% !important;
     width: 90% !important;
-    border-radius:20px !important ; 
+    border-image: round !important;
+    border-radius: 20px !important;
     padding: 9px 1px 9px 1px !important;
     margin: auto !important;
   }
@@ -128,7 +131,7 @@ box-sizing: border-box;
   .titleCardHome2 {
     color: white !important;
     font-weight: 900;
-    
+    font-size: 80% !important;
   }
 
   .cardBodyStyle {

@@ -27,5 +27,5 @@ right:0;
 /*  card styles */
 
 :root {
-    --gradient: linear-gradient(to left top, #f17279 , #fc0a0a ) !important;
+    --gradient: linear-gradient(to left top, #f17279 10% , #fc0a0a 90% ) !important;
   } 
