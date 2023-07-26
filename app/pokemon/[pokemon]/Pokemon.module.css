@@ -38,9 +38,9 @@
 
     position: relative;
     top: 6%;
-    right: 5%;
-    width:30% !important;
-    height: 35vh;
+    right: 10%;
+    width:50% !important;
+    height: 40vh;
   }
   
 
@@ -51,7 +51,7 @@
   .titleCardHome {
     position: absolute;
     left: 83.5%;
-    bottom:70%;
+    bottom:80%;
     text-align: center;
     background-color: red;
     padding:13px;
@@ -65,9 +65,9 @@
 
   .titleCardHome2 {
     position: absolute;
-    bottom:93%;
-    left:4%;
-    
+    bottom:105%;
+    left:10%;
+    border-bottom: 2px solid white;
     color: white !important;
     font-weight: 900 !important;
     font-size: 70% !important;
@@ -90,8 +90,8 @@
   .statsPositioning {
 
     position:absolute;
-    bottom: 45%;
-    left: 30%;
+    bottom:55%;
+    left: 40%;
   
     color: white !important;
     font-weight: 900 !important;

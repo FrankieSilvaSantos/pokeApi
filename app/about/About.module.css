@@ -1,10 +1,10 @@
 .imgAbout {
    position: absolute ;
    /* top: 19% ; */
-   margin-top: 3%;
-    left: 17%; 
-    height: 65%;
-    width: 25%;
+   top: 30%;
+    left: -15%; 
+    height: 220%;
+    width: 70%;
     border-radius: 30px;
     border: 3px solid black;
    
@@ -13,17 +13,20 @@
 
 .container {
 
-    overflow-y: hidden;
-height: 79vh;
-
+     overflow-y: hidden; 
+ height: 79vh; 
+    width: 100%;
 }
 
 .containerAbout {
     position: relative;
     display: grid;
-    gap: 30%;
+    gap: 40%;
+    left: 15%;
     grid-template-columns: 1fr 1fr;
-    margin-top: 1%;
+    width: 50%;
+    height: 30%;
+    margin-top: 2%;
   
 
     
@@ -37,10 +40,11 @@ height: 79vh;
 .textAbout {
 
      position: absolute;
-    
-    left: 57.3%; 
-     top: 29%; 
-    
+    display: block;
+    left: 20%; 
+     top: 90%;
+     width: 500px;
+    height:20vh;
 }
 
 .spanAbout {
@@ -51,7 +55,7 @@ height: 79vh;
 
 .pAbout {
 
-   font-size: 85.3%;
+   font-size: 100%;
    font-weight: bold;
 }
 
@@ -61,6 +65,7 @@ height: 79vh;
 
     font-weight: 900;
     color: black;
+    font-size: 300%;
 
 }
 
@@ -68,7 +73,7 @@ height: 79vh;
     position: absolute;
     border-left: 2px solid black;
     height: 65vh;
-    left: 50%;
+    left: 70%;
     top: 3%;
    
 }
