@@ -13,7 +13,7 @@ export default async function Pokemon({ params }) {
 
   return (
    
-    <>
+    <section className={`${styles.containerTheOne}`}>
 
 <div className={` ${styles.containerCard1}`}>
 {[pokemon].map((pokemon) => (
@@ -123,6 +123,6 @@ export default async function Pokemon({ params }) {
   
 
  
-    </>
+    </section>
  )
 }
