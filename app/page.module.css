@@ -63,7 +63,7 @@ background-image: url('/img/body/wallpaper.jpg');
   border: 3px solid red !important;
   color: rgba(250, 250, 250, 0.8) !important;
   margin-bottom: 2rem !important;
-  height: auto !important; 
+  height: 70% !important; 
   border-radius: 30px !important;
   box-shadow: 5px 5px 5px black !important;
 }
@@ -72,16 +72,18 @@ background-image: url('/img/body/wallpaper.jpg');
 
   position: relative;
   left: 18%;
-  margin-top: 15%;
+  top: 3%;
   width:70% !important;
-  height: 80%;
+  height: 50%;
 
 }
 
 .btn {
 
-
-     
+     position: absolute; 
+     right: 15%;
+    top: 70%; 
+      display: block; 
       text-transform: unset !important;
   border: 2px solid gray !important;
   font-weight: 900 !important;
@@ -94,13 +96,13 @@ background-image: url('/img/body/wallpaper.jpg');
   text-decoration: none !important;
   transition: all .4s ease !important;
   /* box-sizing: border-box !important; */
-  font-size: 80% !important;
-   width: 90% !important;
+    font-size: 50% !important;
+    width: 70% !important; 
   border-image: round !important;
   border-radius: 15px !important;
-    padding: 3% 0% !important; 
-   margin: 1.3em 0 0 0 !important; 
-  height: 30% !important;
+    padding: 3% 0% 3% 0% !important;    
+  height: auto !important;
+ 
   
 }
 
@@ -153,21 +155,30 @@ box-sizing: border-box;
 }
 
 .titleCardHome2 {
-
+  /* display: block; */
+  position: relative;
+right: 0%;
+top:-30%;
   color: white !important;
   font-weight: 900 !important;
-  font-size: 70% !important;
-  height: 3vh;
+  font-size: 50% !important;
+   height: 150%; 
+
 }
 
 .cardBodyStyle {
-  
+   
   /* display: flex;
   
   justify-content: center;
   
   
   width: auto; */
+  height: 30vh !important ;
+    
+  
+    
+  
   text-align: center;
 
 }
