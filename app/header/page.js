@@ -1,8 +1,8 @@
-'use client'
+
 
 import styles from './Header.module.css'
 import Link from 'next/link'
-import { Icon } from '@iconify/react';
+
 
 
 export default function Header() {
@@ -19,10 +19,10 @@ export default function Header() {
     <div className={`collapse navbar-collapse ${styles.listPositioning}`} id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <Link className={`nav-link  ${styles.linkStyle}`} aria-current="page" href="/"><Icon icon="ic:sharp-catching-pokemon" style={{marginBottom:'2px',marginRight:'2px'}} />Home</Link>
+          <Link className={`nav-link  ${styles.linkStyle}`} aria-current="page" href="/"><iconify-icon icon="ic:sharp-catching-pokemon"></iconify-icon>Home</Link>
         </li>
         <li className="nav-item">
-          <Link className={`nav-link  ${styles.linkStyle}`} href="/about"><Icon icon="cib:nintendo-3ds" style={{marginBottom:'2px',marginRight:'4px'}}/>About</Link>
+          <Link className={`nav-link  ${styles.linkStyle}`} href="/about"><iconify-icon icon="cib:nintendo-3ds"></iconify-icon>About</Link>
         </li>
       
       </ul>

@@ -9,15 +9,15 @@ html,body,div,section {
 main {
     position: relative;
     display: block;
-   
+  
 } 
 
 footer {
 
-    position:relative;
+    position:absolute;
     display: block;
     
-   top: auto;
+   
 left:0;
 bottom:auto;
 right:0;

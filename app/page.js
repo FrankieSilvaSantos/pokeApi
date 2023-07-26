@@ -1,7 +1,7 @@
 
 import Image from 'next/image'
 import styles from './page.module.css'
-
+import Link from 'next/link'
 
 async function getData() {
   const res = await fetch('https://pokeapi.co/api/v2/pokemon/')
@@ -117,7 +117,7 @@ export default async function Home() {
          
 <h5 className={`card-title ${styles.titleCardHome}`}>{index + 1}</h5>
 <h6 className={`card-subtitle mb-2  ${styles.titleCardHome2}`}>{pokemon.name.toUpperCase()}</h6>
-<a href="#" className={`btn mr-2 ${styles.btn}`}>Details</a>
+<Link href={`/pokemon/${index + 1}`} className={`btn mr-2 ${styles.btn}`}>Details</Link>
 </div>
 </div>
 
