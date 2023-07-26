@@ -48,16 +48,17 @@ margin-top: 5em;
 
   .titleCardHome {
     position: absolute;
-    left: 43.5%;
-    bottom:162%;
+    left: 83.5%;
+    bottom:78%;
     text-align: center;
     background-color: red;
     padding:13px;
-    width: 13%;
+    width: 50px;
     border: 2px solid white;
     border-radius: 800px ;
     font-size: 15px !important;
     font-weight: 900;
+    box-shadow: 3px 3px 3px black;
   }
 
   .titleCardHome2 {
