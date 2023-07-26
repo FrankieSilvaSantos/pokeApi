@@ -47,7 +47,7 @@ export default async function Pokemon({ params }) {
 <h5 className={`card-subtitle mb-2  ${styles.titleStats1}`}>Abilities:</h5>
 {pokemon.abilities.map((ability) => (
 
-<p className={`${styles.pStyleDetails}`}>{ability.ability.name}</p>
+<p className={`${styles.pStyleDetails}`}> - {ability.ability.name}</p>
 
 ))}
 </div>
@@ -55,10 +55,10 @@ export default async function Pokemon({ params }) {
 
 
 <div style={{display:'flex'}}>
-<h5 className={`card-subtitle mb-2  ${styles.titleStats2}`} >Type:</h5>
+<h5 className={`card-subtitle mb-2  ${styles.titleStats2}`}>Type:</h5>
 {pokemon.types.map((type) => (
 
-<p className={`${styles.pStyleDetails2}`} >{type.type.name}</p>
+<p className={`${styles.pStyleDetails2}`} > - {type.type.name}</p>
 ))}
 </div>
 
@@ -66,7 +66,7 @@ export default async function Pokemon({ params }) {
 <h5 className={`card-subtitle mb-2  ${styles.titleStats3}`}>Height:</h5>
 {[pokemon].map((height) => (
 
-<p className={`${styles.pStyleDetails3}`}>{height.height/10} CM</p>
+<p className={`${styles.pStyleDetails3}`}> - {height.height/10} CM</p>
 
 ))}
 </div>
@@ -75,7 +75,7 @@ export default async function Pokemon({ params }) {
 <h5 className={`card-subtitle mb-2  ${styles.titleStats4}`}>Weight:</h5>
 {[pokemon].map((weight) => (
 
-<p className={`${styles.pStyleDetails4}`}>{weight.weight/10} KG</p>
+<p className={`${styles.pStyleDetails4}`}> - {weight.weight/10} KG</p>
 
 ))}
 </div>
