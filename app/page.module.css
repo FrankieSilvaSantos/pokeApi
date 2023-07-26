@@ -71,10 +71,10 @@ background-image: url('/img/body/wallpaper.jpg');
 .imgCardHome {
 
   position: relative;
-  left: 25%;
+  left: 18%;
   margin-top: 15%;
-  width: 50% !important;
-  height: 50%;
+  width:70% !important;
+  height: 70%;
 
 }
 
@@ -97,8 +97,8 @@ background-image: url('/img/body/wallpaper.jpg');
   font-size: 80% !important;
    width: 90% !important;
   border-image: round !important;
-  border-radius: 20px !important;
-    padding: 3% 0 !important; 
+  border-radius: 15px !important;
+    padding: 3% 0% !important; 
    margin: 1em 0 0 0 !important; 
   height: auto !important;
   
@@ -156,8 +156,8 @@ box-sizing: border-box;
 
   color: white !important;
   font-weight: 900 !important;
-  font-size: 70% !important;
-  height: 3vh;
+  font-size: 60% !important;
+
 }
 
 .cardBodyStyle {
