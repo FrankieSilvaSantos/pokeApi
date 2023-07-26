@@ -63,7 +63,9 @@
 }
 
 .iconsHeader {
-
+    position: relative;
+    top: 2px;
+    right: 2.5px;
 
     
 }
