@@ -140,12 +140,12 @@ box-sizing: border-box;
 
 .titleCardHome {
   position: absolute;
-  left: 35%;
-  bottom: 78%;
+  left: 34%;
+  bottom: 88%;
   text-align: center;
   background-color: red;
   padding: 2.5%;
-  width: 33%;
+  width: 35%;
   border: 2px solid white;
   border-radius: 800px ;
   font-size: 90% !important;
@@ -156,8 +156,8 @@ box-sizing: border-box;
 
   color: white !important;
   font-weight: 900 !important;
-  font-size: 60% !important;
-
+  font-size: 70% !important;
+  height: 3vh;
 }
 
 .cardBodyStyle {
