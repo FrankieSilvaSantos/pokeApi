@@ -131,13 +131,13 @@ background-image: url('/img/body/wallpaper.jpg');
 
 .containerCard1 {
   position: relative;
-    margin-left: 3em; 
+margin-left: 13%;
 display: grid;
 grid-template-columns: 0.3fr 0.3fr 0.3fr;
 
 
 box-sizing: border-box;
- width: 100% !important;
+ width: 80% !important;
 
   
 }
