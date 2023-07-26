@@ -10,8 +10,8 @@ export default function Footer() {
             <footer className={`text-center text-lg-start ${styles.footerStyle}`}>
  
   <div className="text-center p-3">
-    © 2020 Copyright:
-    <Link className="text-dark" href="https://github.com/FrankieSilvaSantos"> <span className={`${styles.spanFooter}`}>PokeApi</span></Link>
+    © 2018 Copyright:
+    <Link className="text-dark" href="https://pokeapi.co/"> <span className={`${styles.spanFooter}`}>PokeApi</span></Link>
   </div>
  
 </footer>
