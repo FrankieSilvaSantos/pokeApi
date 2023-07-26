@@ -48,7 +48,7 @@ justify-content: center;
 background-image: url('/img/body/wallpaper.jpg');
   background-size: 100%;
  
-
+  overflow: hidden;
 }
 
 /* CARD STYLES */
@@ -134,7 +134,7 @@ grid-template-columns: 30% 30% 30%;
 
 box-sizing: border-box;
   width: 100% ;
-  
+
   
 }
 
@@ -171,12 +171,3 @@ box-sizing: border-box;
   text-align: center;
 
 }
-
-
-
-
-
-
-
-
-
