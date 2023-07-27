@@ -53,7 +53,7 @@ justify-content: center;
 
 background-image: url('/img/body/wallpaper.jpg');
   background-size: 100%;
-  width: auto;
+  width:auto;
    overflow-y: hidden; 
 }
 
@@ -138,7 +138,7 @@ background-image: url('/img/body/wallpaper.jpg');
   position: relative;
 
 display: grid;
-grid-template-columns: 0.03fr 0.03fr 0.03fr;
+grid-template-columns: 0.05fr 0.05fr;
 justify-content: center;
 width: auto;
 
