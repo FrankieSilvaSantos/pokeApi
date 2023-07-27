@@ -1,14 +1,14 @@
 .imgAbout {
     position: relative;
     /* top: 19% ; */
-    top:5%;
+    top:3%;
      left: -10%; 
      height: 90%;
    
      max-width:130px !important;
      min-width: 430px;
      max-height: 60%;
-     min-height:75%;
+     min-height:70%;
      border-radius: 30px;
      border: 3px solid black;
 
@@ -46,7 +46,7 @@
       position: absolute;
  
      left:-200%; 
-      top: 19%;
+      top: 13%;
       width: 500px;
      height:auto;
      min-width: 430px;
@@ -97,11 +97,11 @@
 
  .borderLeftAbou3 {
     position:relative;
-    height: 90%;
+    height: 85%;
 
     /* left: 10%; */
     left: 10%;
-    bottom: 75%;
+    bottom: 70%;
     border-right: 4px solid black;
  }
 
