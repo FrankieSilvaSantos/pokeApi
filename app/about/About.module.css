@@ -1,96 +1,113 @@
 .imgAbout {
-   position: absolute;
-   /* top: 19% ; */
-   top: 0%;
-    left: -20%; 
-    height: 90%;
-    width: 90%;
-    border-radius: 30px;
-    border: 3px solid black;
-   
-  
-}
-
-.container {
-
-     overflow-y: hidden; 
- height: 78.9vh; 
-    width: 100%;
-}
-
-.containerAbout {
     position: relative;
-    display: grid;
-    gap: 40%;
-    left: 15%;
-    grid-template-columns: 0.5fr 0.5fr;
-    width: 60%;
-    height: 100%;
-    margin-top: 2%;
+    /* top: 19% ; */
+    top:5%;
+     left: -10%; 
+     height: 90%;
+   
+     max-width:130px !important;
+     min-width: 430px;
+     max-height: 60%;
+     min-height:75%;
+     border-radius: 30px;
+     border: 3px solid black;
+
+   
+ }
+ 
+ .container {
+ 
+       overflow-y: hidden;  
+  height: 79vh; 
+     width: 100%;
+ }
+ 
+ .containerAbout {
+     position: relative;
+     display: grid;
+     gap: 40%;
+     left: 15%;
+     grid-template-columns: 1fr 1fr;
+     width: 60%;
+     height: 100%;
+     margin-top: 2%;
+   
+ 
+     
+  
+     /* margin-left: 1%; */
+ 
+ /* overflow to hide scrollbar */
+ }
+ 
+ 
+ .textAbout {
+ 
+      position: absolute;
+ 
+     left:-200%; 
+      top: 19%;
+      width: 500px;
+     height:auto;
+     min-width: 430px;
+     max-height: 60%;
+     min-height:75%;
+ }
+ 
+ .spanAbout {
+ 
+     color: rgb(228, 5, 5);
+ 
+ }
+ 
+ .pAbout {
+    margin-top: 8%;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+ }
+ 
+ 
+ 
+ .titleAbout {
+     font-weight: 900;
+     color: black;
+     /* font-size: 25px; */
+     font-size: 60px;
+     
+ }
+ 
+ .borderLeftAbout {
+     position: absolute;
+     border-top: 4px solid red;
+     width: 34%;
+     left:27%;
+     top: -3%;
+    
+ }
+ 
+ .borderLeftAbou2 {
+     position: relative;
+     border-top: 4px solid red;
+     width: 34%;
+     left:27%;
+     bottom: 30%;
+    
+ }
+
+ .borderLeftAbou3 {
+    position:relative;
+    height: 90%;
+
+    /* left: 10%; */
+    left: 10%;
+    bottom: 75%;
+    border-right: 4px solid black;
+ }
+
   
 
-    
  
-    /* margin-left: 1%; */
-
-/* overflow to hide scrollbar */
-}
-
-
-.textAbout {
-
-     position: absolute;
-    display: block;
-    left:10%; 
-     top: 10%;
-     width: 500px;
-    height:auto;
-}
-
-.spanAbout {
-
-    color: rgb(228, 5, 5);
-
-}
-
-.pAbout {
-    position: absolute;
-    bottom: -150%;
-   font-size: 20px;
-   font-weight: bold;
-   color: black;
-   margin-top: 14%;
-}
-
-
-
-.titleAbout {
-
-    font-weight: 900;
-    color: black;
-    /* font-size: 25px; */
-    font-size: 60px;
-    
-}
-
-.borderLeftAbout {
-    position: absolute;
-    border-top: 4px solid red;
-    width: 34%;
-    left:27%;
-    top: -3%;
-   
-}
-
-.borderLeftAbou2 {
-    position: absolute;
-    border-top: 4px solid red;
-    width: 34%;
-    left:27%;
-    bottom:-89%;
-   
-}
-
-
-
-    
+ 
+ 
+     
