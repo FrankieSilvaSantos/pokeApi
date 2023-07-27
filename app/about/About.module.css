@@ -3,9 +3,8 @@
    /* top: 19% ; */
    top: 0%;
     left: -20%; 
-    height: 270%;
-    width: 80%;
-  
+    height: 90%;
+    width: 90%;
     border-radius: 30px;
     border: 3px solid black;
    
@@ -24,9 +23,9 @@
     display: grid;
     gap: 40%;
     left: 15%;
-    grid-template-columns: 0.3fr 0.3fr;
+    grid-template-columns: 0.5fr 0.5fr;
     width: 60%;
-    height: 30%;
+    height: 100%;
     margin-top: 2%;
   
 
@@ -42,8 +41,8 @@
 
      position: absolute;
     display: block;
-    left:40%; 
-     top: 33%;
+    left:10%; 
+     top: 10%;
      width: 500px;
     height:auto;
 }
@@ -55,11 +54,12 @@
 }
 
 .pAbout {
-
+    position: absolute;
+    bottom: -150%;
    font-size: 20px;
    font-weight: bold;
    color: black;
-   margin-top: 15%;
+   margin-top: 14%;
 }
 
 
@@ -69,15 +69,15 @@
     font-weight: 900;
     color: black;
     /* font-size: 25px; */
-    font-size: 40px;
+    font-size: 60px;
     
 }
 
 .borderLeftAbout {
     position: absolute;
     border-top: 4px solid red;
-    width: 28%;
-    left:15%;
+    width: 34%;
+    left:27%;
     top: -3%;
    
 }
@@ -86,8 +86,8 @@
     position: absolute;
     border-top: 4px solid red;
     width: 34%;
-    left:12.3%;
-    bottom:-25%;
+    left:27%;
+    bottom:-89%;
    
 }
 
