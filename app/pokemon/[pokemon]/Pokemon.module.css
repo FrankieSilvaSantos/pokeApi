@@ -7,14 +7,18 @@
   height: 79vh;
   background-image: url('/img/body/wallpaper.jpg');
     background-size: 100%;
+
+ 
   width: 100%;
-  overflow-y: hidden;
+   overflow-y: hidden; 
 }
 .containerCard1 {
     position: relative;
+   margin-left: 30%;
   top: 10%;
-  height: 68VH !important;
-  
+  height: 55VH !important;   
+
+  /*68vh  */
 
     
   }
@@ -37,9 +41,9 @@
   .imgCardHome {
 
     position: relative;
-    top: 6%;
-    right: 10%;
-    width:50% !important;
+    top: 0%;
+    right: 17%;
+    width:55% !important;
     height: 40vh;
   }
   
@@ -51,7 +55,7 @@
   .titleCardHome {
     position: absolute;
     left: 83.5%;
-    bottom:80%;
+    bottom:100%;
     text-align: center;
     background-color: red;
     padding:13px;
@@ -65,12 +69,13 @@
 
   .titleCardHome2 {
     position: absolute;
-    bottom:105%;
-    left:10%;
+    bottom:115%;
+    left: 2%;
     border-bottom: 2px solid white;
     color: white !important;
     font-weight: 900 !important;
-    font-size: 70% !important;
+    font-size: 100% !important;
+    text-shadow: 3px 3px 3px black;
   }
 
 
@@ -90,8 +95,8 @@
   .statsPositioning {
 
     position:absolute;
-    bottom:55%;
-    left: 40%;
+    bottom:70%;
+    left: 32%;
   
     color: white !important;
     font-weight: 900 !important;

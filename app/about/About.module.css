@@ -1,10 +1,11 @@
 .imgAbout {
-   position: absolute ;
+   position: absolute;
    /* top: 19% ; */
-   top: 30%;
-    left: -15%; 
-    height: 220%;
-    width: 70%;
+   top: 0%;
+    left: -20%; 
+    height: 270%;
+    width: 80%;
+  
     border-radius: 30px;
     border: 3px solid black;
    
@@ -14,7 +15,7 @@
 .container {
 
      overflow-y: hidden; 
- height: 79vh; 
+ height: 78.9vh; 
     width: 100%;
 }
 
@@ -23,8 +24,8 @@
     display: grid;
     gap: 40%;
     left: 15%;
-    grid-template-columns: 1fr 1fr;
-    width: 50%;
+    grid-template-columns: 0.3fr 0.3fr;
+    width: 60%;
     height: 30%;
     margin-top: 2%;
   
@@ -41,10 +42,10 @@
 
      position: absolute;
     display: block;
-    left: 20%; 
-     top: 90%;
+    left:40%; 
+     top: 33%;
      width: 500px;
-    height:20vh;
+    height:auto;
 }
 
 .spanAbout {
@@ -55,8 +56,10 @@
 
 .pAbout {
 
-   font-size: 100%;
+   font-size: 20px;
    font-weight: bold;
+   color: black;
+   margin-top: 15%;
 }
 
 
@@ -65,16 +68,26 @@
 
     font-weight: 900;
     color: black;
-    font-size: 300%;
-
+    /* font-size: 25px; */
+    font-size: 40px;
+    
 }
 
 .borderLeftAbout {
     position: absolute;
-    border-left: 2px solid black;
-    height: 65vh;
-    left: 70%;
-    top: 3%;
+    border-top: 4px solid red;
+    width: 28%;
+    left:15%;
+    top: -3%;
+   
+}
+
+.borderLeftAbou2 {
+    position: absolute;
+    border-top: 4px solid red;
+    width: 34%;
+    left:12.3%;
+    bottom:-25%;
    
 }
 
