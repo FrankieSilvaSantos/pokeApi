@@ -47,7 +47,7 @@ export default async function Pokemon({ params }) {
 <h5 className={`card-subtitle mb-2  ${styles.titleStats1}`}>Abilities:</h5>
 {pokemon.abilities.map((ability) => (
 
-<p className={`${styles.pStyleDetails}`}><span className={`${styles.borderAbilities}`}></span>{ability.ability.name}<span className={`${styles.borderAbilities}`}></span></p>
+<p className={`${styles.pStyleDetails}`}><span className={`${styles.borderAbilities}`}></span>{ability.ability.name.toUpperCase()}<span className={`${styles.borderAbilities}`}></span></p>
 
 ))}
 </div>
@@ -58,7 +58,7 @@ export default async function Pokemon({ params }) {
 <h5 className={`card-subtitle mb-2  ${styles.titleStats2}`}>Type:</h5>
 {pokemon.types.map((type) => (
 
-<p className={`${styles.pStyleDetails2}`} ><span className={`${styles.borderAbilities2}`}></span>{type.type.name}<span className={`${styles.borderAbilities2}`}></span></p>
+<p className={`${styles.pStyleDetails2}`} ><span className={`${styles.borderAbilities2}`}></span>{type.type.name.toUpperCase()}<span className={`${styles.borderAbilities2}`}></span></p>
 ))}
 </div>
 
