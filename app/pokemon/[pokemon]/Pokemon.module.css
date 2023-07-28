@@ -44,8 +44,9 @@
 
     position: relative;
     top: 0%;
-    right: 17%;
-    width:55% !important;
+    right: 9%;
+    width:45% !important;
+   
     height: 40vh;
   }
   
@@ -72,12 +73,13 @@
   .titleCardHome2 {
     position: absolute;
     bottom:115%;
-    left: 2%;
+    left: 6%;
     border-bottom: 2px solid white;
     color: white !important;
     font-weight: 900 !important;
-    font-size: 100% !important;
+    font-size: 65% !important;
     text-shadow: 3px 3px 3px black;
+    width: auto;
   }
 
 
