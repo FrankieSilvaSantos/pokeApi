@@ -66,7 +66,7 @@ export default async function Pokemon({ params }) {
 <h5 className={`card-subtitle mb-2  ${styles.titleStats3}`}>Height:</h5>
 {[pokemon].map((height) => (
 
-<p className={`${styles.pStyleDetails3}`}> - {((height.height / 10) * 39.37).parseFloat(Math.round(inches).toFixed(1))} INCHES</p>
+<p className={`${styles.pStyleDetails3}`}> - {(parseFloat(Math.round((height.height / 10) * 39.37)).toFixed(1))} INCHES</p>
 
 ))}
 </div>
